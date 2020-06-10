@@ -125,6 +125,13 @@ animals = [camel, lion, deer, goose, bat, rabbit]
 # write your code here
 is_a = True
 while is_a:
+   print(""" Habitat's with it's choices
+   0 -CAMEL
+   1 -LION
+   2 -DEER
+   3 -GOOSE
+   4 -BAT
+   5 -RABBIT""")
    animal = input("Which habitat # do you need? ")
    if(animal != 'exit'):
       print(animals[int(animal)])
